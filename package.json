@@ -1,0 +1,21 @@
+{
+  "name": "large_db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "create-db": "node create-db.js",
+    "migration": "node migration.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "20.17.0"
+  },
+  "keywords": [],
+  "author": "lucasNSF",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mongodb": "6.9"
+  }
+}
